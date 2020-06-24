@@ -1,0 +1,19 @@
+
+***Shiprocket***
+
+= **2019-10-31 - version 1.0.5** =
+* Add - ***Buyer selected Courier*** can be seen while shipping the order in Shiprocket
+* Add - ***Select and ship*** the orders directly from the ***Orders page*** in WooCommerce
+* Update - Auto convert gram/in to kg/cm
+
+= **2019-08-06 - version 1.0.4** =
+* Add -  Documentation added for the plugin
+* Update - Screenshots updated for better understanding of plugin
+* Fix - Compatibility issues resolved for Php 5.6
+
+= **2019-08-01 - version 1.0.3** =
+* Add - ***SignUp and link Shiprocket*** account with WooCommerce
+* Add - ***Check Pincode*** feature added on Product description Page
+* Add - Calculate ***Real-Time Shipping rates*** upon changing the Payment method
+* Add - Show ***Real-Time shipping*** providers and  ***Expected Delivery Date*** on Basket and Check Page
+* Add - Show ***Flat Shipping Rate*** when no courier is Serviceable

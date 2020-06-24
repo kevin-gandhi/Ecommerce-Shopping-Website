@@ -1,0 +1,493 @@
+[
+    {
+        "name": "dangoodman/arrays",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-arrays.git",
+            "reference": "0ba562ebbad45adf287d9d94e3193737523dd24c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/arrays/dangoodman-arrays-1.0.0-60e036.zip",
+            "reference": "0ba562ebbad45adf287d9d94e3193737523dd24c",
+            "shasum": "9eb3c199b1cf425c7783ac182a38a2a01fc8da95"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "time": "2017-01-16T14:29:01+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "Arrays.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/boxpacking",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-box-packing.git",
+            "reference": "380f2942c4e246fc7f3837e1b5c7671f1419efb3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/boxpacking/dangoodman-boxpacking-1.0.3-3d4a27.zip",
+            "reference": "380f2942c4e246fc7f3837e1b5c7671f1419efb3",
+            "shasum": "501e73781522d2c6ef227ff70942bbd2a08bf01e"
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2016-04-28T10:54:55+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "BoxPacking\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/class-name-aware",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-class-name-aware.git",
+            "reference": "751c281f1e46d2c4f12c8a1d11879285b1e44bcb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/class-name-aware/dangoodman-class-name-aware-1.0.0-56054d.zip",
+            "reference": "751c281f1e46d2c4f12c8a1d11879285b1e44bcb",
+            "shasum": "6b42fd18491a95f3bda1af179fddfc6f6184908f"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "time": "2017-01-16T14:39:39+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "ClassNameAware.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/comparator",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-comparator.git",
+            "reference": "e9ed812ea54194bce2800b223b053c1e030b9f94"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/comparator/dangoodman-comparator-1.0.0-ec2078.zip",
+            "reference": "e9ed812ea54194bce2800b223b053c1e030b9f94",
+            "shasum": "3ea5b1ec1c4a3299afe085d907e99e769ccc3e0f"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.3.*"
+        },
+        "time": "2017-01-15T13:38:35+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Comparator\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/composer-capsule-runtime",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/composer-capsule-runtime.git",
+            "reference": "c7aa54112dfdc97c3db71fe2aebb526227889e8a"
+        },
+        "require": {
+            "php": "^5.3.0"
+        },
+        "time": "2017-04-22T20:57:56+00:00",
+        "type": "library",
+        "extra": {
+            "composer-capsule": {
+                "processing": {
+                    "skipRuntimeHooks": true
+                }
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "autoload.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/deferred",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dangoodman/deferred.git",
+            "reference": "cf0d7d8370c0f7225da872a3a2e3c8f1a5bc4205"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dangoodman/deferred/zipball/cf0d7d8370c0f7225da872a3a2e3c8f1a5bc4205",
+            "reference": "cf0d7d8370c0f7225da872a3a2e3c8f1a5bc4205",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~3.7"
+        },
+        "time": "2017-04-26T11:54:04+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Deferred.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Deferred callback execution based on RAII"
+    },
+    {
+        "name": "dangoodman/number-unit",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-number-unit.git",
+            "reference": "0fa92f489d4329691e3b8b5950631b65dcaeb1c7"
+        },
+        "require": {
+            "dangoodman/comparator": "^1.0",
+            "php": "^5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.3.*"
+        },
+        "time": "2017-10-21T13:06:16+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\NumberUnit\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/range",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-range.git",
+            "reference": "d883da0f503905191070af25169c976520ce4f6a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/range/dangoodman-range-1.0.0-a7064c.zip",
+            "reference": "d883da0f503905191070af25169c976520ce4f6a",
+            "shasum": "1b35e276b2ad5cc5e2ce1152d5ee44405e67d99d"
+        },
+        "require": {
+            "dangoodman/comparator": "^1.0",
+            "dangoodman/simple-properties": "^1.0",
+            "php": "^5.3"
+        },
+        "time": "2017-01-17T06:20:48+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Range\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/shengine",
+        "version": "1.2.2",
+        "version_normalized": "1.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-shengine.git",
+            "reference": "c3440a709445636a5c4d49d18a51fc1e225f89c6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/shengine/dangoodman-shengine-1.2.2-68790b.zip",
+            "reference": "c3440a709445636a5c4d49d18a51fc1e225f89c6",
+            "shasum": "50413eb7b1b0af2e400862485620cb9f0315f12e"
+        },
+        "require": {
+            "dangoodman/arrays": "^1.0",
+            "dangoodman/boxpacking": "^1.0",
+            "dangoodman/class-name-aware": "^1.0",
+            "dangoodman/comparator": "^1.0",
+            "dangoodman/number-unit": "^1.1.0",
+            "dangoodman/range": "^1.0",
+            "dangoodman/simple-properties": "^1.0",
+            "php": "^5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.3.*"
+        },
+        "time": "2019-04-05T19:38:48+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Shengine\\": "src/"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Dgm\\Shengine\\Tests\\": "tests/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/shengine-migrations",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-shengine-migrations.git",
+            "reference": "72dd379ff41e3920bc3b161607c2794e27a3196e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/shengine-migrations/dangoodman-shengine-migrations-1.0.0-831a62.zip",
+            "reference": "72dd379ff41e3920bc3b161607c2794e27a3196e",
+            "shasum": "d470129f196e7eab36423a4f4345a7718a3fa7e8"
+        },
+        "require": {
+            "dangoodman/wc-tools": "^2.0.0",
+            "dangoodman/wp-plugin-services": "^1.0.0",
+            "php": "^5.3"
+        },
+        "require-dev": {
+            "php": "^5.6",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2019-07-28T18:00:08+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Shengine\\Migrations\\": "src/"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Dgm\\Shengine\\Migrations\\Tests\\": [
+                    "tests",
+                    "tests/inc"
+                ]
+            }
+        }
+    },
+    {
+        "name": "dangoodman/shengine-wc-converters",
+        "version": "1.5.1",
+        "version_normalized": "1.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-shengine-wc-converters.git",
+            "reference": "d711d845f1df197c2529488c2fd3f117d363148d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/shengine-wc-converters/dangoodman-shengine-wc-converters-1.5.1-85f533.zip",
+            "reference": "d711d845f1df197c2529488c2fd3f117d363148d",
+            "shasum": "ae5582643ac5da713f80d4e256a716d845ba6c64"
+        },
+        "require": {
+            "dangoodman/arrays": "^1.0",
+            "dangoodman/deferred": "^1.0.1",
+            "dangoodman/shengine": "^1.1.0",
+            "dangoodman/shengine-wc-item": "^1.0",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2019-04-15T17:48:53+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Shengine\\Woocommerce\\Converters\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/shengine-wc-item",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-shengine-wc-item.git",
+            "reference": "d3c972fa8bbf8f357956c50f20a5dd9a62ab81d9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/shengine-wc-item/dangoodman-shengine-wc-item-1.0.0-d92bfe.zip",
+            "reference": "d3c972fa8bbf8f357956c50f20a5dd9a62ab81d9",
+            "shasum": "1fe04cf78cccf63587c135b2d4c2041394c57c32"
+        },
+        "require": {
+            "dangoodman/arrays": "^1.0",
+            "dangoodman/deferred": "^1.0",
+            "dangoodman/shengine": "^1.0",
+            "php": ">=5.3"
+        },
+        "time": "2017-01-17T13:20:47+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Shengine\\Woocommerce\\Model\\Item\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/simple-properties",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-simple-properties.git",
+            "reference": "4dc103978830f83b655812323966e54cb6006e4e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/simple-properties/dangoodman-simple-properties-1.0.0-61db1f.zip",
+            "reference": "4dc103978830f83b655812323966e54cb6006e4e",
+            "shasum": "a30611ee0a6de25d75d0a3ff66be0ff88bdddf87"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "time": "2017-01-15T13:20:14+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "SimpleProperties.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/wc-tools",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-wc-tools.git",
+            "reference": "6db8e79ac493d59657a8aaabe16f67e25de61905"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/wc-tools/dangoodman-wc-tools-2.0.1-ec636d.zip",
+            "reference": "6db8e79ac493d59657a8aaabe16f67e25de61905",
+            "shasum": "ca05d540ac18566c557cc274056a8bd07155af47"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "time": "2019-07-28T20:26:34+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "WcTools.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/wp-plugin-bootstrap-guard",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-wp-plugin-bootstrap-guard.git",
+            "reference": "263a8599fc25f037b660d118f4702d732310a16b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/wp-plugin-bootstrap-guard/dangoodman-wp-plugin-bootstrap-guard-2.0.0-dad255.zip",
+            "reference": "263a8599fc25f037b660d118f4702d732310a16b",
+            "shasum": "8c5155dc839fd839038a0ab7a1907d5aefaf5f5e"
+        },
+        "require": {
+            "php": "^5.0"
+        },
+        "time": "2018-09-10T14:21:21+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "DgmWpPluginBootstrapGuard.php",
+                "DgmWpDismissibleNotices.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/wp-plugin-services",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-wp-plugin-services.git",
+            "reference": "a0aa2ffeb15bb257f06141b9212545f0dae33444"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/satis/build/output/dist/dangoodman/wp-plugin-services/dangoodman-wp-plugin-services-1.1.1-600d77.zip",
+            "reference": "a0aa2ffeb15bb257f06141b9212545f0dae33444",
+            "shasum": "93390c8b2f9eabaa7531ac5185a3654a8dc3dd76"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "require-dev": {
+            "php": "^5.6",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2019-07-30T19:41:54+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\PluginServices\\": "src/"
+            }
+        }
+    }
+]

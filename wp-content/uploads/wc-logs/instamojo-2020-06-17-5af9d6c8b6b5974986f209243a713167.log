@@ -1,0 +1,80 @@
+06-17-2020 @ 09:37:04 - Creating Instamojo Order for order id: 1884
+06-17-2020 @ 09:37:04 - Client ID: testxxxxxxxxxx | Client Secret: testxxxxxxxxxx | Testmode: 1 
+06-17-2020 @ 09:37:05 - Data sent for creating order Array
+(
+    [name] => nilesh gandhi
+    [email] => gnilesh04@gmail.com
+    [phone] => 9322227346
+    [amount] => 4897
+    [currency] => INR
+    [redirect_url] => http://localhost/amazebox
+    [transaction_id] => 1592386625-1884
+)
+
+06-17-2020 @ 09:37:05 - Response from server on creating orderstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => c14243b9bdb34fd78188e4391d851190
+            [transaction_id] => 1592386625-1884
+            [status] => pending
+            [currency] => INR
+            [amount] => 4897.00
+            [name] => nilesh gandhi
+            [email] => gnilesh04@gmail.com
+            [phone] => +919322227346
+            [description] => Instapay
+            [redirect_url] => http://localhost/amazebox
+            [webhook_url] => 
+            [created_at] => 2020-06-17T09:37:04.769573Z
+            [resource_uri] => https://test.instamojo.com/v2/gateway/orders/id:c14243b9bdb34fd78188e4391d851190/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://test.instamojo.com/@kng2907/c14243b9bdb34fd78188e4391d851190?embed=form
+        )
+
+)
+
+06-17-2020 @ 11:53:08 - Creating Instamojo Order for order id: 1888
+06-17-2020 @ 11:53:08 - Client ID: testxxxxxxxxxx | Client Secret: testxxxxxxxxxx | Testmode: 1 
+06-17-2020 @ 11:53:09 - Data sent for creating order Array
+(
+    [name] => nilesh gandhi
+    [email] => gnilesh04@gmail.com
+    [phone] => 9322227346
+    [amount] => 1398
+    [currency] => INR
+    [redirect_url] => http://localhost/amazebox
+    [transaction_id] => 1592394789-1888
+)
+
+06-17-2020 @ 11:53:09 - Response from server on creating orderstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => 3dd6b2489cf4445499ec0c56231ecc5e
+            [transaction_id] => 1592394789-1888
+            [status] => pending
+            [currency] => INR
+            [amount] => 1398.00
+            [name] => nilesh gandhi
+            [email] => gnilesh04@gmail.com
+            [phone] => +919322227346
+            [description] => Instapay
+            [redirect_url] => http://localhost/amazebox
+            [webhook_url] => 
+            [created_at] => 2020-06-17T11:53:08.913304Z
+            [resource_uri] => https://test.instamojo.com/v2/gateway/orders/id:3dd6b2489cf4445499ec0c56231ecc5e/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://test.instamojo.com/@kng2907/3dd6b2489cf4445499ec0c56231ecc5e?embed=form
+        )
+
+)
+

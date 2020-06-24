@@ -1,0 +1,120 @@
+06-19-2020 @ 20:00:44 - Creating Instamojo Order for order id: 1910
+06-19-2020 @ 20:00:44 - Client ID: testxxxxxxxxxx | Client Secret: testxxxxxxxxxx | Testmode: 1 
+06-19-2020 @ 20:00:44 - Data sent for creating order Array
+(
+    [name] => nilesh gandhi
+    [email] => abcd@gmail.com
+    [phone] => 9322227347
+    [amount] => 3992.45
+    [currency] => INR
+    [redirect_url] => http://localhost/amazebox
+    [transaction_id] => 1592596844-1910
+)
+
+06-19-2020 @ 20:00:44 - Response from server on creating orderstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => 5cb06dd429f5472f9d64da0a30808b07
+            [transaction_id] => 1592596844-1910
+            [status] => pending
+            [currency] => INR
+            [amount] => 3992.45
+            [name] => nilesh gandhi
+            [email] => abcd@gmail.com
+            [phone] => +919322227347
+            [description] => Instapay
+            [redirect_url] => http://localhost/amazebox
+            [webhook_url] => 
+            [created_at] => 2020-06-19T20:00:44.788980Z
+            [resource_uri] => https://test.instamojo.com/v2/gateway/orders/id:5cb06dd429f5472f9d64da0a30808b07/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://test.instamojo.com/@kng2907/5cb06dd429f5472f9d64da0a30808b07?embed=form
+        )
+
+)
+
+06-19-2020 @ 20:02:23 - Creating Instamojo Order for order id: 1910
+06-19-2020 @ 20:02:23 - Client ID: testxxxxxxxxxx | Client Secret: testxxxxxxxxxx | Testmode: 1 
+06-19-2020 @ 20:02:24 - Data sent for creating order Array
+(
+    [name] => nilesh gandhi
+    [email] => abcd@gmail.com
+    [phone] => 9322227347
+    [amount] => 3992.45
+    [currency] => INR
+    [redirect_url] => http://localhost/amazebox
+    [transaction_id] => 1592596944-1910
+)
+
+06-19-2020 @ 20:02:24 - Response from server on creating orderstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => 45384bec43bf473687f3666a1cdde6b7
+            [transaction_id] => 1592596944-1910
+            [status] => pending
+            [currency] => INR
+            [amount] => 3992.45
+            [name] => nilesh gandhi
+            [email] => abcd@gmail.com
+            [phone] => +919322227347
+            [description] => Instapay
+            [redirect_url] => http://localhost/amazebox
+            [webhook_url] => 
+            [created_at] => 2020-06-19T20:02:24.617114Z
+            [resource_uri] => https://test.instamojo.com/v2/gateway/orders/id:45384bec43bf473687f3666a1cdde6b7/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://test.instamojo.com/@kng2907/45384bec43bf473687f3666a1cdde6b7?embed=form
+        )
+
+)
+
+06-19-2020 @ 20:42:22 - Creating Instamojo Order for order id: 1911
+06-19-2020 @ 20:42:22 - Client ID: testxxxxxxxxxx | Client Secret: testxxxxxxxxxx | Testmode: 1 
+06-19-2020 @ 20:42:23 - Data sent for creating order Array
+(
+    [name] => nilesh gandhi
+    [email] => abcd@gmail.com
+    [phone] => 9322227347
+    [amount] => 4077.45
+    [currency] => INR
+    [redirect_url] => http://localhost/amazebox
+    [transaction_id] => 1592599343-1911
+)
+
+06-19-2020 @ 20:42:23 - Response from server on creating orderstdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => b2cc7c148b27469189cbc64db617badb
+            [transaction_id] => 1592599343-1911
+            [status] => pending
+            [currency] => INR
+            [amount] => 4077.45
+            [name] => nilesh gandhi
+            [email] => abcd@gmail.com
+            [phone] => +919322227347
+            [description] => Instapay
+            [redirect_url] => http://localhost/amazebox
+            [webhook_url] => 
+            [created_at] => 2020-06-19T20:42:23.261918Z
+            [resource_uri] => https://test.instamojo.com/v2/gateway/orders/id:b2cc7c148b27469189cbc64db617badb/
+            [customer_id] => 
+        )
+
+    [payment_options] => stdClass Object
+        (
+            [payment_url] => https://test.instamojo.com/@kng2907/b2cc7c148b27469189cbc64db617badb?embed=form
+        )
+
+)
+
